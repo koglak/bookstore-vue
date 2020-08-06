@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest"
+    },
+    "testURL": "http://localhost/"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.3",
+    "jest": "^26.2.2",
+    "vue-jest": "^3.0.6"
+  },
+  "scripts": {
+    "unit": "jest"
+  }
+}

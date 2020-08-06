@@ -1,0 +1,163 @@
+.navbar{
+    background-color:#563d7c;
+}
+
+.page-footer{
+    background-color:#563d7c;
+    width:100%;
+}
+
+.title{
+    text-align: center;
+    border-bottom: 3px solid #DCDCDC;
+    height:50px;
+}
+
+.title h2{
+    text-align:left;
+}
+
+
+.template{
+    width:100%;
+    margin:50px ;
+}
+
+.item{
+    text-align: right;
+    border-bottom: 1px solid #DCDCDC;
+    margin-top:5px;
+}
+
+.item ul{
+    text-align: center;
+    margin-top:45px;
+}
+
+
+ul>li:nth-child(1){
+    font-weight: bold;
+}
+
+ul>li:nth-child(2){
+    color:grey;
+    font-size: smaller;
+}
+
+
+.item img{
+    margin:20px;
+    width:100px;
+    height:150px;
+    float:left;
+}
+
+.info-2{
+    margin-top:45px;
+    text-align: center;
+}
+
+.info-2 img{
+    margin-top:5px;
+    width:20px;
+    height:20px;
+}
+
+.info-2 img:hover{
+    transform: rotate(20deg);
+}
+
+.calculation{
+    border:1px solid gray;
+    border-radius:20px;
+    margin:20px;
+}
+
+.calculation-form{
+    margin:10px;
+    position:relative;
+    text-align:right;
+    position:relative;
+}
+
+table{
+    line-height:30px;
+    width:100%;
+}
+
+tr:nth-child(2){
+    border-bottom: 1px solid gray;
+ 
+}
+
+.qty .count {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    padding: 0 2px
+    ;min-width: 15px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 15px;
+    height: 15px;
+    font: 15px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 15px;
+    height: 15px;
+    font: 15px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+.minus:hover{
+    background-color: red !important;
+}
+.plus:hover{
+    background-color: green !important;
+}
+/*Prevent text selection*/
+span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+input{  
+    border: 0;
+    width: 2%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:disabled{
+    background-color:white;
+}
+
+.qty{
+ 
+    text-align:center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .title>h2{
+        font-size: 20px;
+    }
+  }
