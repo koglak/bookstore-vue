@@ -28,7 +28,7 @@ var books=[{
 var sub_total=subtotal(books);
 var _total=total(sub_total);
 
-export default new Vue({
+new Vue({
     el:'#app',
     data:{
         subtotal:sub_total,
